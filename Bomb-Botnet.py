@@ -16,7 +16,7 @@ year = now.year
 
 ############## Settings ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(10000)
+bytes = random._urandom(1000000)
 timeout =  time.time() 
 ############# Settings ##############
 
